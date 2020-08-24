@@ -160,8 +160,8 @@ As **tidy_df** fulfils the three requirements for tidy data, the author believes
 <br/><br/>
 
 #### **Exporting tidy_df**
-**tidy_df** is written to disk as an excel file, "**tidy_df.csv**", with the **write.csv** function.
+**tidy_df** is written to disk as a txt file, "**tidy_df.txt**", with the **write.txt** function.
 ```{r}
-write.csv(tidy_df, file = "tidy_df.csv")
+write.table(tidy_df, file = "tidy_df.txt", row.name=FALSE)
 ```
 

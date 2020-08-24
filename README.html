@@ -478,8 +478,8 @@ names(tidy_df) &lt;- names(pruned_df)</code></pre>
 </div>
 <div id="exporting-tidy_df" class="section level4">
 <h4><strong>Exporting tidy_df</strong></h4>
-<p><strong>tidy_df</strong> is written to disk as an excel file, “<strong>tidy_df.csv</strong>”, with the <strong>write.csv</strong> function.</p>
-<pre class="{r}"><code>write.csv(tidy_df, file = &quot;tidy_df.csv&quot;)</code></pre>
+<p><strong>tidy_df</strong> is written to disk as a txt file, “<strong>tidy_df.txt</strong>”, with the <strong>write.txt</strong> function.</p>
+<pre class="{r}"><code>write.table(tidy_df, file = &quot;tidy_df.txt&quot;, row.name=FALSE)</code></pre>
 </div>
 </div>
 

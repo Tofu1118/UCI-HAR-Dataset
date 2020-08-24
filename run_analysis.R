@@ -92,4 +92,4 @@ for (subject_data in subject_split) {
 tidy_df <- tidy_df[2:length(tidy_df[,1]),]
 rownames(tidy_df) <- c()
 
-write.csv(tidy_df, file = "tidy_df.csv")
+write.table(tidy_df, file = "tidy_df.txt", row.name=FALSE)
